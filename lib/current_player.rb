@@ -10,8 +10,7 @@ end
 end
 
 def current_player(board)
-  turn_count(board)
-  return counter
+ counter = turn_count(board)
   if counter % 2 = 0
   puts "It's X turn"
 else puts"it's O turn"
